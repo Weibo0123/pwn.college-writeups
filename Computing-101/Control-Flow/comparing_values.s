@@ -1,0 +1,11 @@
+.intel_syntax noprefix
+
+mov rax, [rsp]
+cmp rax, 42
+setz dil
+
+mov rax, 60
+syscall
+
+
+
